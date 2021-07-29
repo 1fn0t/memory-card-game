@@ -5,6 +5,7 @@ public class Score {
         this.time = time;
         this.points = points;
     }
+    //This is the score system used for the game for every 10 seconds 40 points are deducted from the score
     public int getScore() {
         int total = this.points;
         while ((this.time-10) > 0) {

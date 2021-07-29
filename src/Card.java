@@ -2,6 +2,7 @@ import javax.swing.*;
 
 public class Card extends JButton {
     private ImageIcon back = new ImageIcon("src/Images/square.jpg", "hi");
+    //The front of the card is not initially in the card but it is applied to the card in the class memory board
     private ImageIcon front;
 
     public Card(String str, String name) {

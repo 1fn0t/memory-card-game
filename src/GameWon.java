@@ -5,6 +5,7 @@ public class GameWon {
         this.pointsEarned = pointsEarned;
         this.gameDuration = gameDuration;
     }
+    //Game won just holds the matches data in the form of a string to be displayed as a JLabel
     public String getFinalScore() {
         return "Final Score: " + this.pointsEarned;
     }
